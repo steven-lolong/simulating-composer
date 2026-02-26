@@ -1,0 +1,23 @@
+{
+  "name": "steven-lolong/simulating-composer",
+  "type": "package",
+  "require": {
+    "composer/installers": "^1"
+  },
+  "autoload": {
+    "psr-4": {
+      "StevenLolong\\SimulatingComposer\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Steven Lolong",
+      "email": "steven.lolong@uni-tuebingen.de"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}
